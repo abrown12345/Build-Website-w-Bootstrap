@@ -1,0 +1,39 @@
+ul, .Sign-In {
+    list-style: none; 
+}
+footer {
+    background-color: lightgrey; 
+    position: absolute; 
+    width: 100%; 
+    height: auto; 
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    
+}
+footer a {
+    vertical-align: middle;  
+}
+/* This is apart of the animations for the footer*/
+@keyframes rotate {
+    from {background-color: lightgrey;}
+    to {background-color:powderblue; }
+}
+.card {
+    background-color: lightgrey; 
+    position: absolute; 
+    width: 100%; 
+    height: auto; 
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+    
+}
+.card {
+    vertical-align: middle;  
+}
+/* This is apart of the animations for the footer*/
+@keyframes rotate {
+    from {background-color: lightgrey;}
+    to {background-color:powderblue; }
+}
